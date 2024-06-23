@@ -1,6 +1,6 @@
 body {
-    color: #566787;
-    background: #f5f5f5;
+    color: blanchedalmond;
+    background: #222222;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -40,7 +40,7 @@ body {
 }
 
 .search-box input:focus {
-    border-color: #3FBAE4;
+    border-color: #bffe00;
 }
 
 .search-box i {
@@ -139,4 +139,76 @@ table.table td i {
     float: left;
     margin-top: 6px;
     font-size: 95%;
+}
+
+.container-fluid{
+    height: 70px;
+    font-size: 20px;
+}
+
+.container-fluid ul li a:hover{
+    background-color: black;
+    color: #0397d6;
+    transition: 500ms;
+    font-size: 30px;
+    text-decoration: underline 3px blanchedalmond;
+}
+
+
+.container-fluid ul li a{
+    transition: 500ms;
+    margin-left: 50px;
+    color: blanchedalmond;
+    font-style: italic;
+    text-decoration: underline 3px black;
+}
+
+#navbarSupportedContent{
+    max-width: 500px;
+}
+
+.navbar-brand{
+    color: blanchedalmond;
+}
+
+.navbar-brand:hover{
+    color: #0397d6;
+}
+
+h1{
+    font-size: 40px;
+    color: blanchedalmond;
+    transition: 500ms;
+}
+
+h1:hover{
+    color: #0397d6;
+    transition: 500ms;
+}
+
+h2{
+    font-size: 200px;
+}
+
+.card{
+    border-color: #000000;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 40px;
+    color: blanchedalmond;
+    text-decoration: underline 2px;
+}
+
+.card-text{
+    color: blanchedalmond;
+}
+
+.card-body{
+    background-color: #363636;
+}
+
+footer{
+    background-color: rgb(26, 26, 26);
 }
